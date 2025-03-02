@@ -18,7 +18,8 @@ To address patient safety from a consumer-centered approach, this initiative foc
 5. pyttsx3
 6. SpeechRecognition
 7. SMTP
-8. Arduino Uno
+8. pyserial
+9. Arduino Uno
 
 ### Note
 To run this program, you need to input your own API key along with your email, password, and respective sms gateways
