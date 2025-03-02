@@ -101,7 +101,8 @@ def bluetooth_monitor():
                                     print("🛑 Exiting program due to 'Tilted' status.")
                                     ser.close()
                                     sys.exit(0)  # Exit the program
-                            
+                            elif "Stable" in data:
+                                tilt_counter = 0
                             # Process multiple lines if present
                             lines = data.split('\r\n')
                             if lines:
@@ -166,7 +167,8 @@ def get_tilt_status():
 
         print("Exiting program due to Tilted status.")
         sys.exit(0)  # Exit the program
-
+    elif "Stable" in data:
+        tilt_counter = 0
     return jsonify({
         "status": last_tilt_status,
         "connection_status": connection_status,
