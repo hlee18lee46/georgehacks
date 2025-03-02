@@ -12,13 +12,13 @@ To address patient safety from a consumer-centered approach, this initiative foc
 
 ### Technologies and Hardware Used:
 1. Python
-2. Flask
-3. OpenAI API
-4. pyttsx3
-5. SpeechRecognition
-6. SMTP
-7. Arduino Uno
-8. c++
+2. C++
+3. Flask
+4. OpenAI API
+5. pyttsx3
+6. SpeechRecognition
+7. SMTP
+8. Arduino Uno
 
 ### Note
 To run this program, you need to input your own API key along with your email, password, and respective sms gateways
