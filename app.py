@@ -25,7 +25,8 @@ def send_sms():
     """Send SMS alerts to multiple contacts."""
     #EMAIL_ADDRESS = os.getenv("EMAIL_ADDRESS")
     #EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")
-
+    EMAIL_ADDRESS="skagen146@gmail.com"
+    EMAIL_PASSWORD="mxjujtpobaeuwgcq"
     # Debug: Check if variables are loaded correctly
     if not EMAIL_ADDRESS or not EMAIL_PASSWORD:
         print("⚠️ ERROR: EMAIL_ADDRESS or EMAIL_PASSWORD is not set!")
