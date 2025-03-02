@@ -9,7 +9,6 @@ import openai
 import pyttsx3
 import speech_recognition as sr
 import requests
-import os
 from dotenv import load_dotenv
 import smtplib
 
