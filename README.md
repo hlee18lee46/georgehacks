@@ -21,3 +21,9 @@ To address patient safety from a consumer-centered approach, this initiative foc
 
 ### Note
 To run this program, you need to input your own API key along with your email, password, and respective sms gateways
+
+## Demo Link
+https://youtu.be/aRwjC-qYDpQ
+
+## Devpost
+https://devpost.com/software/digitalmedics
